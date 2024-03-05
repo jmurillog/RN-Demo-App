@@ -1,10 +1,10 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import BookList from "./components/BookList";
-import BookDetails from "./components/BookDetails";
-import AddBook from "./components/AddBook";
-import EditBook from "./components/EditBook";
+import BookList from "./screens/BookListScreen";
+import BookDetails from "./screens/BookDetailsScreen";
+import AddBook from "./screens/AddBookScreen";
+import EditBook from "./screens/EditBookScreen";
 
 const Stack = createStackNavigator();
 
